@@ -25,7 +25,7 @@ Password: admin123
 👉 **Live Website:**  https://suhanameerasheik.github.io/FUTURE_FS_02/
 
 ## 📂 GitHub Repository
-👉 **Source Code:** https://github.com/yourusername/mini-crm
+👉 **Source Code:** https://github.com/suhanameerasheik/FUTURE_FS_02.git
 
 ## 💡 Learning Outcome
 This project helped me understand:
@@ -34,9 +34,6 @@ This project helped me understand:
 - Dashboard logic
 - Real-world CRM workflow
 
-## 📸 Screenshots
-(Add screenshots here)
-
----
 Built with ❤️ for Future Interns
+
 
