@@ -22,7 +22,7 @@ Username: admin
 Password: admin123  
 
 ## 🌐 Live Demo
-👉 **Live Website:** https://yourusername.github.io/mini-crm/
+👉 **Live Website:**  https://suhanameerasheik.github.io/FUTURE_FS_02/
 
 ## 📂 GitHub Repository
 👉 **Source Code:** https://github.com/yourusername/mini-crm
@@ -39,3 +39,4 @@ This project helped me understand:
 
 ---
 Built with ❤️ for Future Interns
+
