@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini CRM - Lead Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LEAD FORM -->
+<div id="leadPage">
+  <h2>Client Contact Form</h2>
+
+  <form id="leadForm">
+    <input type="text" id="name" placeholder="Client Name" required>
+    <input type="email" id="email" placeholder="Client Email" required>
+    <input type="text" id="source" placeholder="Lead Source (Website / Instagram)">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="submit">Submit Lead</button>
+  </form>
+
+  <p>
+    <a href="#" onclick="showLogin()">Admin Login</a>
+  </p>
+</div>
+
+<!-- LOGIN -->
+<div id="loginPage" class="hidden">
+  <h2>Admin Login</h2>
+
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <p id="error"></p>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboardPage" class="hidden">
+  <h2>Lead Management Dashboard</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Source</th>
+        <th>Status</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody id="leadTable"></tbody>
+  </table>
+
+  <br>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
